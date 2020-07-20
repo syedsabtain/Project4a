@@ -34,9 +34,9 @@ function Mainpage() {
 
     return (
        
-        <div className="wrapper">
+        <div className="wrapper" id='secondd'>
             <div className="sky">
-            <h3 className='btn btn-danger' >Scroll up to see Alice</h3>
+            <a href='#first' className='btn btn-danger' >See Alice</a>
                         </div>
             <div className='earth'>
                 <div className="red-queen" onClick={Handle_alicespeed}>

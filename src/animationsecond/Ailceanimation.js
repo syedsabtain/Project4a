@@ -62,8 +62,8 @@ const Secondanimation = () => {
 
     return (
         <div>
-        <div className='wrapper1'>
-          <h3 href='/' className='btn btn-primary'>Scroll Down to view RedQueen</h3>
+        <div className='wrapper1' id='first'>
+          <a href='#secondd' className='btn btn-primary'>See RedQueen</a>
             <div className='alice' ref={ref} >
                 <img srcSet={alic} alt=""/>
             </div>
