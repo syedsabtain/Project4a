@@ -6,10 +6,10 @@ import fground2 from './foreGround2'
 import bground from './backGround1'
 import bground2 from './backGround2'
 import '../bootstrap.min.css'
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 
-function App() {
+function Mainpage() {
     let [redqn,setRedqn] = useState(0);
     
     let redquen = useRef(null)
@@ -37,7 +37,7 @@ function App() {
     return (
         <div className="wrapper">
             <div className="sky">
-            <Link className='btn btn-danger' to='second-animation'onClick={()=>{clearInterval(Redqueen().inter)}} >View Second Animation</Link>
+            <a className='btn btn-danger' href='secondanimation' onClick={()=>{clearInterval(Redqueen().inter)}} >View Second Animation</a>
                         </div>
             <div className='earth'>
                 <div className="red-queen" onClick={Handle_alicespeed}>
@@ -108,4 +108,4 @@ function App() {
     );
 }
 
-export default App;
+export default Mainpage;

@@ -1,11 +1,11 @@
 import React, { useRef, useState } from 'react'
-import {Link} from 'react-router-dom'
+
 import './second.css'
 import alic from './alicedrink2.png'
 import useWebAnimations from '@wellyshen/use-web-animations'
-import Cake from './cake'
-import Bottle from './bottle'
-import Liquid from './liquid'
+import Cake from './cakeComp'
+import Bottle from './bottleComp'
+import Liquid from './liquidComp'
 
 const Secondanimation = () => {
 
@@ -62,7 +62,7 @@ const Secondanimation = () => {
     return (
 
         <div className='wrapper1'>
-          <Link to='/' className='btn btn-primary'>Back to First Animation</Link>
+          <a href='/' className='btn btn-primary'>Back to First Animation</a>
             <div className='alice' ref={ref} >
                 <img srcSet={alic} alt=""/>
             </div>
