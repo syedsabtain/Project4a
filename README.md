@@ -2,7 +2,7 @@
 ## Project4a
 
 ## Alice animation:
-click drink(bottle) me it will grow small and click eat(cake) me it will } grow large.
+click drink(bottle) me it will grow small and click eat(cake) me it will  grow large.
 
 
 ## RedQueen animation:
