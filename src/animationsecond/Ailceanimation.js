@@ -6,6 +6,7 @@ import useWebAnimations from '@wellyshen/use-web-animations'
 import Cake from './cakeComp'
 import Bottle from './bottleComp'
 import Liquid from './liquidComp'
+import Alicered from '../animateref/aliceRed'
 
 const Secondanimation = () => {
 
@@ -60,9 +61,9 @@ const Secondanimation = () => {
     liquid= Liquid(test).refer
 
     return (
-
+        <div>
         <div className='wrapper1'>
-          <a href='/' className='btn btn-primary'>Back to First Animation</a>
+          <h3 href='/' className='btn btn-primary'>Scroll Down to view RedQueen</h3>
             <div className='alice' ref={ref} >
                 <img srcSet={alic} alt=""/>
             </div>
@@ -91,6 +92,8 @@ const Secondanimation = () => {
                         alt="A cake labeled Eat Me"/>
                 </div>
             </div>
+        </div>
+        <Alicered></Alicered>
         </div>
     )
 }
